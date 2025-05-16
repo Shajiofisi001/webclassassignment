@@ -97,7 +97,7 @@ console.log(access)
     console.log("unavailable")
  }
 
- let role1="modrator"
+ let role1="modrators"
 if(role1==="admin"){
     console.log("user is admin")
 }else if (role1==="modrator"){
@@ -106,4 +106,18 @@ if(role1==="admin"){
     console.log("basic user")
 }else{
     console.log("access denied")
+}
+
+
+let age1=20
+checkAge=( age1 >= 20)? "adult" :"minor";  
+console.log(checkAge)
+
+let food1;
+if(food1=="pizza"){
+    console.log(food1+ " unavailable")
+}else if (food1==="pie"){
+    console.log(food1+ "available")
+}else{
+    console.log("type in please")
 }

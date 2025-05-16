@@ -59,3 +59,51 @@ let admin = true
 console.log(m>0 && c>0)
 console.log(m<0 || c<0)
 console.log(!admin)
+
+
+
+let age =15
+let checkAge=(age>=18)?"Adult" 
+:"Minor"; 
+console.log(checkAge)
+
+let role="admin"
+let access=(role==="admin")?
+"admin access":
+(role==="moderators")?
+"limited access":
+(role==="user")?
+"basic access":
+"access denied"
+console.log(access)
+
+
+
+ let name="GIFT"
+ let hisAge=16
+ let output="name is "+name+" and age is "+hisAge
+ let output2=`name is ${name} and age is ${hisAge}`
+ console.log(output2)
+ console.log(output)
+
+ let food="pizza"
+ if(food==="pizza"){
+    console.log(food+ " is available")
+ }else if (food==="burger"){
+    console.log(food+ " is avalaible")
+ }else if (food==="doghunt"){
+    console.log(food+ " is available" )
+ }else{
+    console.log("unavailable")
+ }
+
+ let role1="modrator"
+if(role1==="admin"){
+    console.log("user is admin")
+}else if (role1==="modrator"){
+    console.log("user is modrator")
+}else if (role1==="basic user"){
+    console.log("basic user")
+}else{
+    console.log("access denied")
+}

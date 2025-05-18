@@ -113,11 +113,31 @@ let age1=20
 checkAge=( age1 >= 20)? "adult" :"minor";  
 console.log(checkAge)
 
-let food1;
+let food1="pizza"
 if(food1=="pizza"){
-    console.log(food1+ " unavailable")
+    console.log(food1+ " available")
 }else if (food1==="pie"){
-    console.log(food1+ "available")
+    console.log(food1+ " is available")
 }else{
     console.log("type in please")
 }
+
+let score=51
+if (score>=70 && score<=100){
+    console.log("grade A")
+}else if (score>=60 && score<69){
+    console.log("grade B")
+}else if (score>=50 && score<=59){
+    console.log("grade C")
+}else if (score>=40 && score<=49){
+    console.log("grade D")
+}else if (score>=35 && score<=39){
+    console.log("grade E")
+}else if (score<=35){
+    console.log("grade F")
+}else{
+    console.log("type in your score")
+}
+
+
+
